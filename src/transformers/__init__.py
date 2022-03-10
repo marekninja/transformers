@@ -2808,7 +2808,6 @@ if TYPE_CHECKING:
         from .models.perceiver import PerceiverFeatureExtractor
         from .models.poolformer import PoolFormerFeatureExtractor
         from .models.segformer import SegformerFeatureExtractor
-        from .models.van import VanFeatureExtractor
         from .models.vilt import ViltFeatureExtractor, ViltProcessor
         from .models.vit import ViTFeatureExtractor
     else:
